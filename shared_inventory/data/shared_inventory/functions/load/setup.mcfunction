@@ -9,4 +9,6 @@ scoreboard players set enabled shinv.vars 1
 scoreboard players set gpid shinv.args 1
 
 
+data modify storage minecraft:juloos.datapacks shared_inventory set value 1
+
 advancement revoke @a only shared_inventory:respawned
