@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "inv_changed": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "rewards": {
+        "function": "shared_inventory:advancements/inv_changed"
+    }
+}

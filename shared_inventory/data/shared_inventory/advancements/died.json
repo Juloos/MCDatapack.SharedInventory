@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "died": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{DeathTime:0s}"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
