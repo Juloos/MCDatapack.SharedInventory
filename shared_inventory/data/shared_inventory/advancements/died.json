@@ -17,5 +17,8 @@
                 ]
             }
         }
+    },
+    "rewards": {
+        "function": "shared_inventory:advancements/died"
     }
 }
